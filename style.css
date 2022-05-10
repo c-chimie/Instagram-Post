@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: "Roboto", sans-serif;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.post {
+  margin: auto;
+  width: 400px;
+}
+.post-header {
+  background: #ffffff;
+  width: 400px;
+  display: flex;
+  padding-top: 10px;
+}
+.post-body {
+  background: white;
+  width: 400px;
+}
+.post-image {
+  height: 300px;
+}
+.fa-solid {
+  font-size: 27px;
+}
+.fa-brands {
+  float: left;
+  font-size: 35px;
+  padding: 2px 10px 10px 15px;
+}
+.fa-regular {
+  font-size: 30px;
+}
+.icon-wrapper {
+  padding: 10px;
+  display: flex;
+}
+.icon-wrapper div:first-child {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+.icon-wrapper div:last-child {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+  padding-right: 10px;
+}
+.liked-by {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
+  font-size: 12px;
+}
+.lorem-text {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 0px;
+  font-size: 12px;
+}
+.header-left {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+.header-right {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+  padding-right: 15px;
+}
